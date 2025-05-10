@@ -12,6 +12,12 @@ import java.util.UUID;
 import cl.rwangnet.domain.Booking;
 import cl.rwangnet.domain.port.BookingRepository;
 
+/**
+ * Service Class responsible to implement actual business logic to implement
+ * CRUD operations, based on the persistence layer.
+ * 
+ * @author rwangnet <rwangnet@gmail.com>
+ */
 @ApplicationScoped
 public class BookingService {
 

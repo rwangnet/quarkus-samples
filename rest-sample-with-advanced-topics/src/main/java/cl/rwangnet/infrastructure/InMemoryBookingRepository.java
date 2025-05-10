@@ -8,6 +8,12 @@ import java.util.concurrent.ConcurrentHashMap;
 import cl.rwangnet.domain.Booking;
 import cl.rwangnet.domain.port.BookingRepository;
 
+/**
+ * Implements the repository functionalities based on an inmemory data
+ * structure.
+ * 
+ * @author rwangnet <rwangnet@gmail.com>
+ */
 @ApplicationScoped
 public class InMemoryBookingRepository implements BookingRepository {
 

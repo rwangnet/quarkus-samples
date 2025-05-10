@@ -6,6 +6,10 @@ import java.util.UUID;
 
 import cl.rwangnet.domain.Booking;
 
+/**
+ * A Simple Booking <entity> crud ops repo.
+ * @author rwangnet <rwangnet@gmail.com>
+ */
 public interface BookingRepository {
     void save(Booking booking);
 

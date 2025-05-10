@@ -3,6 +3,10 @@ package cl.rwangnet.api;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * Allows to set a treshold on requests processing limits.
+ * @author rwangnet <rwangnet@gmail.com>
+ */
 public class RateLimiter {
     private final int maxRequestsPerSecond;
     private final Semaphore semaphore;

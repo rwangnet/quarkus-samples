@@ -22,6 +22,10 @@ import cl.rwangnet.domain.Booking;
 @Path("/bookings")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+/**
+ * Defines REST Resources to access to different CRUD endpoints
+ * @author rwangnet <rwangnet@gmail.com>
+ */
 public class BookingResource {
 
     @Inject
